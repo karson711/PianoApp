@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF6B2F5E20EF5603008AFD14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6B2F5D20EF5603008AFD14 /* AppDelegate.m */; };
+		FF6B2F6120EF5603008AFD14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6B2F6020EF5603008AFD14 /* ViewController.m */; };
+		FF6B2F6420EF5603008AFD14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F6220EF5603008AFD14 /* Main.storyboard */; };
+		FF6B2F6620EF5606008AFD14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F6520EF5606008AFD14 /* Assets.xcassets */; };
+		FF6B2F6920EF5606008AFD14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F6720EF5606008AFD14 /* LaunchScreen.storyboard */; };
+		FF6B2F6C20EF5606008AFD14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6B2F6B20EF5606008AFD14 /* main.m */; };
+		FF6B2F7620EF5606008AFD14 /* PianoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6B2F7520EF5606008AFD14 /* PianoAppTests.m */; };
+		FF6B2F8120EF5606008AFD14 /* PianoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6B2F8020EF5606008AFD14 /* PianoAppUITests.m */; };
+		FF6B2FE720EF5648008AFD14 /* 05-C#-大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F8F20EF5648008AFD14 /* 05-C#-大字1组.mp3 */; };
+		FF6B2FE820EF5648008AFD14 /* 60-G#-小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9020EF5648008AFD14 /* 60-G#-小字2组.mp3 */; };
+		FF6B2FE920EF5648008AFD14 /* 74-A# -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9120EF5648008AFD14 /* 74-A# -小字3组.mp3 */; };
+		FF6B2FEA20EF5648008AFD14 /* 76-C  -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9220EF5648008AFD14 /* 76-C  -小字4组.mp3 */; };
+		FF6B2FEB20EF5648008AFD14 /* 75-B  -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9320EF5648008AFD14 /* 75-B  -小字3组.mp3 */; };
+		FF6B2FEC20EF5648008AFD14 /* 86-A# -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9420EF5648008AFD14 /* 86-A# -小字4组.mp3 */; };
+		FF6B2FED20EF5648008AFD14 /* 59-G   -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9520EF5648008AFD14 /* 59-G   -小字2组.mp3 */; };
+		FF6B2FEE20EF5648008AFD14 /* 63-B   -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9620EF5648008AFD14 /* 63-B   -小字2组.mp3 */; };
+		FF6B2FEF20EF5648008AFD14 /* 85-A  -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9720EF5648008AFD14 /* 85-A  -小字4组.mp3 */; };
+		FF6B2FF020EF5648008AFD14 /* 87-B  -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9820EF5648008AFD14 /* 87-B  -小字4组.mp3 */; };
+		FF6B2FF120EF5648008AFD14 /* 14-A#-大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9920EF5648008AFD14 /* 14-A#-大字1组.mp3 */; };
+		FF6B2FF220EF5648008AFD14 /* 88-C  -小字5组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9A20EF5648008AFD14 /* 88-C  -小字5组.mp3 */; };
+		FF6B2FF320EF5648008AFD14 /* 47-G  -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9B20EF5648008AFD14 /* 47-G  -小字1组.mp3 */; };
+		FF6B2FF420EF5648008AFD14 /* 69-F  -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9C20EF5648008AFD14 /* 69-F  -小字3组.mp3 */; };
+		FF6B2FF520EF5648008AFD14 /* 79-D# -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9D20EF5648008AFD14 /* 79-D# -小字4组.mp3 */; };
+		FF6B2FF620EF5648008AFD14 /* 66-D    -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9E20EF5648008AFD14 /* 66-D    -小字3组.mp3 */; };
+		FF6B2FF720EF5648008AFD14 /* 84-G# -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2F9F20EF5648008AFD14 /* 84-G# -小字4组.mp3 */; };
+		FF6B2FF820EF5648008AFD14 /* 54-D   -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FA020EF5648008AFD14 /* 54-D   -小字2组.mp3 */; };
+		FF6B2FF920EF5648008AFD14 /* 22-F#-大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FA120EF5648008AFD14 /* 22-F#-大字组.mp3 */; };
+		FF6B2FFA20EF5648008AFD14 /* 04-C  -大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FA220EF5648008AFD14 /* 04-C  -大字1组.mp3 */; };
+		FF6B2FFB20EF5648008AFD14 /* 37-A  -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FA320EF5648008AFD14 /* 37-A  -小字组.mp3 */; };
+		FF6B2FFC20EF5648008AFD14 /* 03-B    -大字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FA420EF5648008AFD14 /* 03-B    -大字2组.mp3 */; };
+		FF6B2FFD20EF5648008AFD14 /* 68-E   -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FA520EF5648008AFD14 /* 68-E   -小字3组.mp3 */; };
+		FF6B2FFE20EF5648008AFD14 /* 56-E   -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FA620EF5648008AFD14 /* 56-E   -小字2组.mp3 */; };
+		FF6B2FFF20EF5648008AFD14 /* 49-A  -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FA720EF5648008AFD14 /* 49-A  -小字1组.mp3 */; };
+		FF6B300020EF5648008AFD14 /* 41-C# -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FA820EF5648008AFD14 /* 41-C# -小字1组.mp3 */; };
+		FF6B300120EF5648008AFD14 /* 30-D  -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FA920EF5648008AFD14 /* 30-D  -小字组.mp3 */; };
+		FF6B300220EF5648008AFD14 /* 15-B  -大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FAA20EF5648008AFD14 /* 15-B  -大字1组.mp3 */; };
+		FF6B300320EF5648008AFD14 /* 31-D# -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FAB20EF5648008AFD14 /* 31-D# -小字组.mp3 */; };
+		FF6B300420EF5648008AFD14 /* 36-G# -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FAC20EF5648008AFD14 /* 36-G# -小字组.mp3 */; };
+		FF6B300520EF5648008AFD14 /* 46-F# -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FAD20EF5648008AFD14 /* 46-F# -小字1组.mp3 */; };
+		FF6B300620EF5648008AFD14 /* 18-D  -大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FAE20EF5648008AFD14 /* 18-D  -大字组.mp3 */; };
+		FF6B300720EF5648008AFD14 /* 02-A# -大字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FAF20EF5648008AFD14 /* 02-A# -大字2组.mp3 */; };
+		FF6B300820EF5648008AFD14 /* 80-E  -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FB020EF5648008AFD14 /* 80-E  -小字4组.mp3 */; };
+		FF6B300920EF5648008AFD14 /* 19-D# -大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FB120EF5648008AFD14 /* 19-D# -大字组.mp3 */; };
+		FF6B300A20EF5648008AFD14 /* 39-B  -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FB220EF5648008AFD14 /* 39-B  -小字组.mp3 */; };
+		FF6B300B20EF5648008AFD14 /* 64-C  -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FB320EF5648008AFD14 /* 64-C  -小字3组.mp3 */; };
+		FF6B300C20EF5648008AFD14 /* 48-G# -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FB420EF5648008AFD14 /* 48-G# -小字1组.mp3 */; };
+		FF6B300D20EF5648008AFD14 /* 09-F  -大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FB520EF5648008AFD14 /* 09-F  -大字1组.mp3 */; };
+		FF6B300E20EF5648008AFD14 /* 12-G#-大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FB620EF5648008AFD14 /* 12-G#-大字1组.mp3 */; };
+		FF6B300F20EF5648008AFD14 /* 25-A -大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FB720EF5648008AFD14 /* 25-A -大字组.mp3 */; };
+		FF6B301020EF5648008AFD14 /* 51-B    -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FB820EF5648008AFD14 /* 51-B    -小字1组.mp3 */; };
+		FF6B301120EF5648008AFD14 /* 67-D#  -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FB920EF5648008AFD14 /* 67-D#  -小字3组.mp3 */; };
+		FF6B301220EF5648008AFD14 /* 27-B -大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FBA20EF5648008AFD14 /* 27-B -大字组.mp3 */; };
+		FF6B301320EF5648008AFD14 /* 21-F -大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FBB20EF5648008AFD14 /* 21-F -大字组.mp3 */; };
+		FF6B301420EF5648008AFD14 /* 20-E -大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FBC20EF5648008AFD14 /* 20-E -大字组.mp3 */; };
+		FF6B301520EF5648008AFD14 /* 06-D  -大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FBD20EF5648008AFD14 /* 06-D  -大字1组.mp3 */; };
+		FF6B301620EF5648008AFD14 /* 11-G  -大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FBE20EF5648008AFD14 /* 11-G  -大字1组.mp3 */; };
+		FF6B301720EF5648008AFD14 /* 81-F  -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FBF20EF5648008AFD14 /* 81-F  -小字4组.mp3 */; };
+		FF6B301820EF5648008AFD14 /* 82-F# -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FC020EF5648008AFD14 /* 82-F# -小字4组.mp3 */; };
+		FF6B301920EF5648008AFD14 /* 33-F  -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FC120EF5648008AFD14 /* 33-F  -小字组.mp3 */; };
+		FF6B301A20EF5648008AFD14 /* 44-E  -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FC220EF5648008AFD14 /* 44-E  -小字1组.mp3 */; };
+		FF6B301B20EF5648008AFD14 /* 38-A# -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FC320EF5648008AFD14 /* 38-A# -小字组.mp3 */; };
+		FF6B301C20EF5648008AFD14 /* 07-D#-大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FC420EF5648008AFD14 /* 07-D#-大字1组.mp3 */; };
+		FF6B301D20EF5648008AFD14 /* 53-C# -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FC520EF5648008AFD14 /* 53-C# -小字2组.mp3 */; };
+		FF6B301E20EF5648008AFD14 /* 35-G  -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FC620EF5648008AFD14 /* 35-G  -小字组.mp3 */; };
+		FF6B301F20EF5648008AFD14 /* 65-C#  -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FC720EF5648008AFD14 /* 65-C#  -小字3组.mp3 */; };
+		FF6B302020EF5648008AFD14 /* 17-C#-大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FC820EF5648008AFD14 /* 17-C#-大字组.mp3 */; };
+		FF6B302120EF5648008AFD14 /* 42-D -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FC920EF5648008AFD14 /* 42-D -小字1组.mp3 */; };
+		FF6B302220EF5648008AFD14 /* 29-C# -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FCA20EF5648008AFD14 /* 29-C# -小字组.mp3 */; };
+		FF6B302320EF5648008AFD14 /* 08-E  -大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FCB20EF5648008AFD14 /* 08-E  -大字1组.mp3 */; };
+		FF6B302420EF5648008AFD14 /* 40-C  -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FCC20EF5648008AFD14 /* 40-C  -小字1组.mp3 */; };
+		FF6B302520EF5648008AFD14 /* 70-F# -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FCD20EF5648008AFD14 /* 70-F# -小字3组.mp3 */; };
+		FF6B302620EF5648008AFD14 /* 13-A   -大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FCE20EF5648008AFD14 /* 13-A   -大字1组.mp3 */; };
+		FF6B302720EF5648008AFD14 /* 78-D  -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FCF20EF5648008AFD14 /* 78-D  -小字4组.mp3 */; };
+		FF6B302820EF5648008AFD14 /* 28-C   -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FD020EF5648008AFD14 /* 28-C   -小字组.mp3 */; };
+		FF6B302920EF5648008AFD14 /* 23-G -大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FD120EF5648008AFD14 /* 23-G -大字组.mp3 */; };
+		FF6B302A20EF5648008AFD14 /* 26-A#-大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FD220EF5648008AFD14 /* 26-A#-大字组.mp3 */; };
+		FF6B302B20EF5648008AFD14 /* 58-F# -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FD320EF5648008AFD14 /* 58-F# -小字2组.mp3 */; };
+		FF6B302C20EF5648008AFD14 /* 73-A  -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FD420EF5648008AFD14 /* 73-A  -小字3组.mp3 */; };
+		FF6B302D20EF5648008AFD14 /* 45-F   -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FD520EF5648008AFD14 /* 45-F   -小字1组.mp3 */; };
+		FF6B302E20EF5648008AFD14 /* 43-D# -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FD620EF5648008AFD14 /* 43-D# -小字1组.mp3 */; };
+		FF6B302F20EF5648008AFD14 /* 32-E  -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FD720EF5648008AFD14 /* 32-E  -小字组.mp3 */; };
+		FF6B303020EF5648008AFD14 /* 50-A# -小字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FD820EF5648008AFD14 /* 50-A# -小字1组.mp3 */; };
+		FF6B303120EF5648008AFD14 /* 57-F   -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FD920EF5648008AFD14 /* 57-F   -小字2组.mp3 */; };
+		FF6B303220EF5648008AFD14 /* 34-F# -小字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FDA20EF5648008AFD14 /* 34-F# -小字组.mp3 */; };
+		FF6B303320EF5648008AFD14 /* 83-G  -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FDB20EF5648008AFD14 /* 83-G  -小字4组.mp3 */; };
+		FF6B303420EF5648008AFD14 /* 52-C    -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FDC20EF5648008AFD14 /* 52-C    -小字2组.mp3 */; };
+		FF6B303520EF5648008AFD14 /* 24-G#-大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FDD20EF5648008AFD14 /* 24-G#-大字组.mp3 */; };
+		FF6B303620EF5648008AFD14 /* 16-C  -大字组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FDE20EF5648008AFD14 /* 16-C  -大字组.mp3 */; };
+		FF6B303720EF5648008AFD14 /* 77-C# -小字4组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FDF20EF5648008AFD14 /* 77-C# -小字4组.mp3 */; };
+		FF6B303820EF5648008AFD14 /* 72-G# -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FE020EF5648008AFD14 /* 72-G# -小字3组.mp3 */; };
+		FF6B303920EF5648008AFD14 /* 71-G  -小字3组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FE120EF5648008AFD14 /* 71-G  -小字3组.mp3 */; };
+		FF6B303A20EF5648008AFD14 /* 55-D# -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FE220EF5648008AFD14 /* 55-D# -小字2组.mp3 */; };
+		FF6B303B20EF5648008AFD14 /* 10-F#-大字1组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FE320EF5648008AFD14 /* 10-F#-大字1组.mp3 */; };
+		FF6B303C20EF5648008AFD14 /* 01-A    -大字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FE420EF5648008AFD14 /* 01-A    -大字2组.mp3 */; };
+		FF6B303D20EF5648008AFD14 /* 62-A# -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FE520EF5648008AFD14 /* 62-A# -小字2组.mp3 */; };
+		FF6B303E20EF5648008AFD14 /* 61-A  -小字2组.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6B2FE620EF5648008AFD14 /* 61-A  -小字2组.mp3 */; };
+		FF6B304220EF578A008AFD14 /* PianoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6B304020EF578A008AFD14 /* PianoListCell.m */; };
+		FF6B304320EF578A008AFD14 /* PianoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6B304120EF578A008AFD14 /* PianoListCell.xib */; };
+		FF6B304620EF5891008AFD14 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6B304520EF5891008AFD14 /* AudioToolbox.framework */; };
+		FF6B304820EF5897008AFD14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6B304720EF5897008AFD14 /* UIKit.framework */; };
+		FF6B304A20EF589C008AFD14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6B304920EF589C008AFD14 /* AVFoundation.framework */; };
+		FF6B304C20EF58A2008AFD14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6B304B20EF58A2008AFD14 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF6B2F7220EF5606008AFD14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6B2F5120EF5603008AFD14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6B2F5820EF5603008AFD14;
+			remoteInfo = PianoApp;
+		};
+		FF6B2F7D20EF5606008AFD14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6B2F5120EF5603008AFD14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6B2F5820EF5603008AFD14;
+			remoteInfo = PianoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF6B2F5920EF5603008AFD14 /* PianoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6B2F5C20EF5603008AFD14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF6B2F5D20EF5603008AFD14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF6B2F5F20EF5603008AFD14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF6B2F6020EF5603008AFD14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF6B2F6320EF5603008AFD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF6B2F6520EF5606008AFD14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF6B2F6820EF5606008AFD14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF6B2F6A20EF5606008AFD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6B2F6B20EF5606008AFD14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF6B2F7120EF5606008AFD14 /* PianoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6B2F7520EF5606008AFD14 /* PianoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PianoAppTests.m; sourceTree = "<group>"; };
+		FF6B2F7720EF5606008AFD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6B2F7C20EF5606008AFD14 /* PianoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6B2F8020EF5606008AFD14 /* PianoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PianoAppUITests.m; sourceTree = "<group>"; };
+		FF6B2F8220EF5606008AFD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6B2F8F20EF5648008AFD14 /* 05-C#-大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05-C#-大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9020EF5648008AFD14 /* 60-G#-小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "60-G#-小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9120EF5648008AFD14 /* 74-A# -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "74-A# -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9220EF5648008AFD14 /* 76-C  -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "76-C  -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9320EF5648008AFD14 /* 75-B  -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "75-B  -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9420EF5648008AFD14 /* 86-A# -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "86-A# -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9520EF5648008AFD14 /* 59-G   -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "59-G   -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9620EF5648008AFD14 /* 63-B   -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "63-B   -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9720EF5648008AFD14 /* 85-A  -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "85-A  -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9820EF5648008AFD14 /* 87-B  -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "87-B  -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9920EF5648008AFD14 /* 14-A#-大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14-A#-大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9A20EF5648008AFD14 /* 88-C  -小字5组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "88-C  -小字5组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9B20EF5648008AFD14 /* 47-G  -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "47-G  -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9C20EF5648008AFD14 /* 69-F  -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "69-F  -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9D20EF5648008AFD14 /* 79-D# -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "79-D# -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9E20EF5648008AFD14 /* 66-D    -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "66-D    -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2F9F20EF5648008AFD14 /* 84-G# -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "84-G# -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2FA020EF5648008AFD14 /* 54-D   -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "54-D   -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FA120EF5648008AFD14 /* 22-F#-大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "22-F#-大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FA220EF5648008AFD14 /* 04-C  -大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04-C  -大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FA320EF5648008AFD14 /* 37-A  -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "37-A  -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FA420EF5648008AFD14 /* 03-B    -大字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03-B    -大字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FA520EF5648008AFD14 /* 68-E   -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "68-E   -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2FA620EF5648008AFD14 /* 56-E   -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "56-E   -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FA720EF5648008AFD14 /* 49-A  -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "49-A  -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FA820EF5648008AFD14 /* 41-C# -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "41-C# -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FA920EF5648008AFD14 /* 30-D  -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "30-D  -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FAA20EF5648008AFD14 /* 15-B  -大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15-B  -大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FAB20EF5648008AFD14 /* 31-D# -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "31-D# -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FAC20EF5648008AFD14 /* 36-G# -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "36-G# -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FAD20EF5648008AFD14 /* 46-F# -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "46-F# -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FAE20EF5648008AFD14 /* 18-D  -大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "18-D  -大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FAF20EF5648008AFD14 /* 02-A# -大字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02-A# -大字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FB020EF5648008AFD14 /* 80-E  -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "80-E  -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2FB120EF5648008AFD14 /* 19-D# -大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "19-D# -大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FB220EF5648008AFD14 /* 39-B  -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "39-B  -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FB320EF5648008AFD14 /* 64-C  -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "64-C  -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2FB420EF5648008AFD14 /* 48-G# -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "48-G# -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FB520EF5648008AFD14 /* 09-F  -大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09-F  -大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FB620EF5648008AFD14 /* 12-G#-大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12-G#-大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FB720EF5648008AFD14 /* 25-A -大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "25-A -大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FB820EF5648008AFD14 /* 51-B    -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "51-B    -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FB920EF5648008AFD14 /* 67-D#  -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "67-D#  -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2FBA20EF5648008AFD14 /* 27-B -大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "27-B -大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FBB20EF5648008AFD14 /* 21-F -大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "21-F -大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FBC20EF5648008AFD14 /* 20-E -大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "20-E -大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FBD20EF5648008AFD14 /* 06-D  -大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06-D  -大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FBE20EF5648008AFD14 /* 11-G  -大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11-G  -大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FBF20EF5648008AFD14 /* 81-F  -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "81-F  -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2FC020EF5648008AFD14 /* 82-F# -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "82-F# -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2FC120EF5648008AFD14 /* 33-F  -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "33-F  -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FC220EF5648008AFD14 /* 44-E  -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "44-E  -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FC320EF5648008AFD14 /* 38-A# -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "38-A# -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FC420EF5648008AFD14 /* 07-D#-大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07-D#-大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FC520EF5648008AFD14 /* 53-C# -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "53-C# -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FC620EF5648008AFD14 /* 35-G  -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "35-G  -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FC720EF5648008AFD14 /* 65-C#  -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "65-C#  -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2FC820EF5648008AFD14 /* 17-C#-大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "17-C#-大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FC920EF5648008AFD14 /* 42-D -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "42-D -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FCA20EF5648008AFD14 /* 29-C# -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "29-C# -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FCB20EF5648008AFD14 /* 08-E  -大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08-E  -大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FCC20EF5648008AFD14 /* 40-C  -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "40-C  -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FCD20EF5648008AFD14 /* 70-F# -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "70-F# -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2FCE20EF5648008AFD14 /* 13-A   -大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13-A   -大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FCF20EF5648008AFD14 /* 78-D  -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "78-D  -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2FD020EF5648008AFD14 /* 28-C   -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "28-C   -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FD120EF5648008AFD14 /* 23-G -大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "23-G -大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FD220EF5648008AFD14 /* 26-A#-大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "26-A#-大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FD320EF5648008AFD14 /* 58-F# -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "58-F# -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FD420EF5648008AFD14 /* 73-A  -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "73-A  -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2FD520EF5648008AFD14 /* 45-F   -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "45-F   -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FD620EF5648008AFD14 /* 43-D# -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "43-D# -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FD720EF5648008AFD14 /* 32-E  -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "32-E  -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FD820EF5648008AFD14 /* 50-A# -小字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "50-A# -小字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FD920EF5648008AFD14 /* 57-F   -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "57-F   -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FDA20EF5648008AFD14 /* 34-F# -小字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "34-F# -小字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FDB20EF5648008AFD14 /* 83-G  -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "83-G  -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2FDC20EF5648008AFD14 /* 52-C    -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "52-C    -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FDD20EF5648008AFD14 /* 24-G#-大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "24-G#-大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FDE20EF5648008AFD14 /* 16-C  -大字组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "16-C  -大字组.mp3"; sourceTree = "<group>"; };
+		FF6B2FDF20EF5648008AFD14 /* 77-C# -小字4组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "77-C# -小字4组.mp3"; sourceTree = "<group>"; };
+		FF6B2FE020EF5648008AFD14 /* 72-G# -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "72-G# -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2FE120EF5648008AFD14 /* 71-G  -小字3组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "71-G  -小字3组.mp3"; sourceTree = "<group>"; };
+		FF6B2FE220EF5648008AFD14 /* 55-D# -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "55-D# -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FE320EF5648008AFD14 /* 10-F#-大字1组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10-F#-大字1组.mp3"; sourceTree = "<group>"; };
+		FF6B2FE420EF5648008AFD14 /* 01-A    -大字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01-A    -大字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FE520EF5648008AFD14 /* 62-A# -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "62-A# -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B2FE620EF5648008AFD14 /* 61-A  -小字2组.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "61-A  -小字2组.mp3"; sourceTree = "<group>"; };
+		FF6B303F20EF578A008AFD14 /* PianoListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PianoListCell.h; sourceTree = "<group>"; };
+		FF6B304020EF578A008AFD14 /* PianoListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PianoListCell.m; sourceTree = "<group>"; };
+		FF6B304120EF578A008AFD14 /* PianoListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PianoListCell.xib; sourceTree = "<group>"; };
+		FF6B304520EF5891008AFD14 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FF6B304720EF5897008AFD14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF6B304920EF589C008AFD14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FF6B304B20EF58A2008AFD14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF6B2F5620EF5603008AFD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6B304C20EF58A2008AFD14 /* Foundation.framework in Frameworks */,
+				FF6B304A20EF589C008AFD14 /* AVFoundation.framework in Frameworks */,
+				FF6B304820EF5897008AFD14 /* UIKit.framework in Frameworks */,
+				FF6B304620EF5891008AFD14 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6B2F6E20EF5606008AFD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6B2F7920EF5606008AFD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF6B2F5020EF5603008AFD14 = {
+			isa = PBXGroup;
+			children = (
+				FF6B2F5B20EF5603008AFD14 /* PianoApp */,
+				FF6B2F7420EF5606008AFD14 /* PianoAppTests */,
+				FF6B2F7F20EF5606008AFD14 /* PianoAppUITests */,
+				FF6B2F5A20EF5603008AFD14 /* Products */,
+				FF6B304420EF5890008AFD14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF6B2F5A20EF5603008AFD14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B2F5920EF5603008AFD14 /* PianoApp.app */,
+				FF6B2F7120EF5606008AFD14 /* PianoAppTests.xctest */,
+				FF6B2F7C20EF5606008AFD14 /* PianoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF6B2F5B20EF5603008AFD14 /* PianoApp */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B2F5C20EF5603008AFD14 /* AppDelegate.h */,
+				FF6B2F5D20EF5603008AFD14 /* AppDelegate.m */,
+				FF6B2F5F20EF5603008AFD14 /* ViewController.h */,
+				FF6B2F6020EF5603008AFD14 /* ViewController.m */,
+				FF6B303F20EF578A008AFD14 /* PianoListCell.h */,
+				FF6B304020EF578A008AFD14 /* PianoListCell.m */,
+				FF6B304120EF578A008AFD14 /* PianoListCell.xib */,
+				FF6B2F6220EF5603008AFD14 /* Main.storyboard */,
+				FF6B2F8E20EF5648008AFD14 /* Resources */,
+				FF6B2F6520EF5606008AFD14 /* Assets.xcassets */,
+				FF6B2F6720EF5606008AFD14 /* LaunchScreen.storyboard */,
+				FF6B2F6A20EF5606008AFD14 /* Info.plist */,
+				FF6B2F6B20EF5606008AFD14 /* main.m */,
+			);
+			path = PianoApp;
+			sourceTree = "<group>";
+		};
+		FF6B2F7420EF5606008AFD14 /* PianoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B2F7520EF5606008AFD14 /* PianoAppTests.m */,
+				FF6B2F7720EF5606008AFD14 /* Info.plist */,
+			);
+			path = PianoAppTests;
+			sourceTree = "<group>";
+		};
+		FF6B2F7F20EF5606008AFD14 /* PianoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B2F8020EF5606008AFD14 /* PianoAppUITests.m */,
+				FF6B2F8220EF5606008AFD14 /* Info.plist */,
+			);
+			path = PianoAppUITests;
+			sourceTree = "<group>";
+		};
+		FF6B2F8E20EF5648008AFD14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B2F8F20EF5648008AFD14 /* 05-C#-大字1组.mp3 */,
+				FF6B2F9020EF5648008AFD14 /* 60-G#-小字2组.mp3 */,
+				FF6B2F9120EF5648008AFD14 /* 74-A# -小字3组.mp3 */,
+				FF6B2F9220EF5648008AFD14 /* 76-C  -小字4组.mp3 */,
+				FF6B2F9320EF5648008AFD14 /* 75-B  -小字3组.mp3 */,
+				FF6B2F9420EF5648008AFD14 /* 86-A# -小字4组.mp3 */,
+				FF6B2F9520EF5648008AFD14 /* 59-G   -小字2组.mp3 */,
+				FF6B2F9620EF5648008AFD14 /* 63-B   -小字2组.mp3 */,
+				FF6B2F9720EF5648008AFD14 /* 85-A  -小字4组.mp3 */,
+				FF6B2F9820EF5648008AFD14 /* 87-B  -小字4组.mp3 */,
+				FF6B2F9920EF5648008AFD14 /* 14-A#-大字1组.mp3 */,
+				FF6B2F9A20EF5648008AFD14 /* 88-C  -小字5组.mp3 */,
+				FF6B2F9B20EF5648008AFD14 /* 47-G  -小字1组.mp3 */,
+				FF6B2F9C20EF5648008AFD14 /* 69-F  -小字3组.mp3 */,
+				FF6B2F9D20EF5648008AFD14 /* 79-D# -小字4组.mp3 */,
+				FF6B2F9E20EF5648008AFD14 /* 66-D    -小字3组.mp3 */,
+				FF6B2F9F20EF5648008AFD14 /* 84-G# -小字4组.mp3 */,
+				FF6B2FA020EF5648008AFD14 /* 54-D   -小字2组.mp3 */,
+				FF6B2FA120EF5648008AFD14 /* 22-F#-大字组.mp3 */,
+				FF6B2FA220EF5648008AFD14 /* 04-C  -大字1组.mp3 */,
+				FF6B2FA320EF5648008AFD14 /* 37-A  -小字组.mp3 */,
+				FF6B2FA420EF5648008AFD14 /* 03-B    -大字2组.mp3 */,
+				FF6B2FA520EF5648008AFD14 /* 68-E   -小字3组.mp3 */,
+				FF6B2FA620EF5648008AFD14 /* 56-E   -小字2组.mp3 */,
+				FF6B2FA720EF5648008AFD14 /* 49-A  -小字1组.mp3 */,
+				FF6B2FA820EF5648008AFD14 /* 41-C# -小字1组.mp3 */,
+				FF6B2FA920EF5648008AFD14 /* 30-D  -小字组.mp3 */,
+				FF6B2FAA20EF5648008AFD14 /* 15-B  -大字1组.mp3 */,
+				FF6B2FAB20EF5648008AFD14 /* 31-D# -小字组.mp3 */,
+				FF6B2FAC20EF5648008AFD14 /* 36-G# -小字组.mp3 */,
+				FF6B2FAD20EF5648008AFD14 /* 46-F# -小字1组.mp3 */,
+				FF6B2FAE20EF5648008AFD14 /* 18-D  -大字组.mp3 */,
+				FF6B2FAF20EF5648008AFD14 /* 02-A# -大字2组.mp3 */,
+				FF6B2FB020EF5648008AFD14 /* 80-E  -小字4组.mp3 */,
+				FF6B2FB120EF5648008AFD14 /* 19-D# -大字组.mp3 */,
+				FF6B2FB220EF5648008AFD14 /* 39-B  -小字组.mp3 */,
+				FF6B2FB320EF5648008AFD14 /* 64-C  -小字3组.mp3 */,
+				FF6B2FB420EF5648008AFD14 /* 48-G# -小字1组.mp3 */,
+				FF6B2FB520EF5648008AFD14 /* 09-F  -大字1组.mp3 */,
+				FF6B2FB620EF5648008AFD14 /* 12-G#-大字1组.mp3 */,
+				FF6B2FB720EF5648008AFD14 /* 25-A -大字组.mp3 */,
+				FF6B2FB820EF5648008AFD14 /* 51-B    -小字1组.mp3 */,
+				FF6B2FB920EF5648008AFD14 /* 67-D#  -小字3组.mp3 */,
+				FF6B2FBA20EF5648008AFD14 /* 27-B -大字组.mp3 */,
+				FF6B2FBB20EF5648008AFD14 /* 21-F -大字组.mp3 */,
+				FF6B2FBC20EF5648008AFD14 /* 20-E -大字组.mp3 */,
+				FF6B2FBD20EF5648008AFD14 /* 06-D  -大字1组.mp3 */,
+				FF6B2FBE20EF5648008AFD14 /* 11-G  -大字1组.mp3 */,
+				FF6B2FBF20EF5648008AFD14 /* 81-F  -小字4组.mp3 */,
+				FF6B2FC020EF5648008AFD14 /* 82-F# -小字4组.mp3 */,
+				FF6B2FC120EF5648008AFD14 /* 33-F  -小字组.mp3 */,
+				FF6B2FC220EF5648008AFD14 /* 44-E  -小字1组.mp3 */,
+				FF6B2FC320EF5648008AFD14 /* 38-A# -小字组.mp3 */,
+				FF6B2FC420EF5648008AFD14 /* 07-D#-大字1组.mp3 */,
+				FF6B2FC520EF5648008AFD14 /* 53-C# -小字2组.mp3 */,
+				FF6B2FC620EF5648008AFD14 /* 35-G  -小字组.mp3 */,
+				FF6B2FC720EF5648008AFD14 /* 65-C#  -小字3组.mp3 */,
+				FF6B2FC820EF5648008AFD14 /* 17-C#-大字组.mp3 */,
+				FF6B2FC920EF5648008AFD14 /* 42-D -小字1组.mp3 */,
+				FF6B2FCA20EF5648008AFD14 /* 29-C# -小字组.mp3 */,
+				FF6B2FCB20EF5648008AFD14 /* 08-E  -大字1组.mp3 */,
+				FF6B2FCC20EF5648008AFD14 /* 40-C  -小字1组.mp3 */,
+				FF6B2FCD20EF5648008AFD14 /* 70-F# -小字3组.mp3 */,
+				FF6B2FCE20EF5648008AFD14 /* 13-A   -大字1组.mp3 */,
+				FF6B2FCF20EF5648008AFD14 /* 78-D  -小字4组.mp3 */,
+				FF6B2FD020EF5648008AFD14 /* 28-C   -小字组.mp3 */,
+				FF6B2FD120EF5648008AFD14 /* 23-G -大字组.mp3 */,
+				FF6B2FD220EF5648008AFD14 /* 26-A#-大字组.mp3 */,
+				FF6B2FD320EF5648008AFD14 /* 58-F# -小字2组.mp3 */,
+				FF6B2FD420EF5648008AFD14 /* 73-A  -小字3组.mp3 */,
+				FF6B2FD520EF5648008AFD14 /* 45-F   -小字1组.mp3 */,
+				FF6B2FD620EF5648008AFD14 /* 43-D# -小字1组.mp3 */,
+				FF6B2FD720EF5648008AFD14 /* 32-E  -小字组.mp3 */,
+				FF6B2FD820EF5648008AFD14 /* 50-A# -小字1组.mp3 */,
+				FF6B2FD920EF5648008AFD14 /* 57-F   -小字2组.mp3 */,
+				FF6B2FDA20EF5648008AFD14 /* 34-F# -小字组.mp3 */,
+				FF6B2FDB20EF5648008AFD14 /* 83-G  -小字4组.mp3 */,
+				FF6B2FDC20EF5648008AFD14 /* 52-C    -小字2组.mp3 */,
+				FF6B2FDD20EF5648008AFD14 /* 24-G#-大字组.mp3 */,
+				FF6B2FDE20EF5648008AFD14 /* 16-C  -大字组.mp3 */,
+				FF6B2FDF20EF5648008AFD14 /* 77-C# -小字4组.mp3 */,
+				FF6B2FE020EF5648008AFD14 /* 72-G# -小字3组.mp3 */,
+				FF6B2FE120EF5648008AFD14 /* 71-G  -小字3组.mp3 */,
+				FF6B2FE220EF5648008AFD14 /* 55-D# -小字2组.mp3 */,
+				FF6B2FE320EF5648008AFD14 /* 10-F#-大字1组.mp3 */,
+				FF6B2FE420EF5648008AFD14 /* 01-A    -大字2组.mp3 */,
+				FF6B2FE520EF5648008AFD14 /* 62-A# -小字2组.mp3 */,
+				FF6B2FE620EF5648008AFD14 /* 61-A  -小字2组.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FF6B304420EF5890008AFD14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B304B20EF58A2008AFD14 /* Foundation.framework */,
+				FF6B304920EF589C008AFD14 /* AVFoundation.framework */,
+				FF6B304720EF5897008AFD14 /* UIKit.framework */,
+				FF6B304520EF5891008AFD14 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF6B2F5820EF5603008AFD14 /* PianoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6B2F8520EF5606008AFD14 /* Build configuration list for PBXNativeTarget "PianoApp" */;
+			buildPhases = (
+				FF6B2F5520EF5603008AFD14 /* Sources */,
+				FF6B2F5620EF5603008AFD14 /* Frameworks */,
+				FF6B2F5720EF5603008AFD14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoApp;
+			productName = PianoApp;
+			productReference = FF6B2F5920EF5603008AFD14 /* PianoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF6B2F7020EF5606008AFD14 /* PianoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6B2F8820EF5606008AFD14 /* Build configuration list for PBXNativeTarget "PianoAppTests" */;
+			buildPhases = (
+				FF6B2F6D20EF5606008AFD14 /* Sources */,
+				FF6B2F6E20EF5606008AFD14 /* Frameworks */,
+				FF6B2F6F20EF5606008AFD14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6B2F7320EF5606008AFD14 /* PBXTargetDependency */,
+			);
+			name = PianoAppTests;
+			productName = PianoAppTests;
+			productReference = FF6B2F7120EF5606008AFD14 /* PianoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF6B2F7B20EF5606008AFD14 /* PianoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6B2F8B20EF5606008AFD14 /* Build configuration list for PBXNativeTarget "PianoAppUITests" */;
+			buildPhases = (
+				FF6B2F7820EF5606008AFD14 /* Sources */,
+				FF6B2F7920EF5606008AFD14 /* Frameworks */,
+				FF6B2F7A20EF5606008AFD14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6B2F7E20EF5606008AFD14 /* PBXTargetDependency */,
+			);
+			name = PianoAppUITests;
+			productName = PianoAppUITests;
+			productReference = FF6B2F7C20EF5606008AFD14 /* PianoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF6B2F5120EF5603008AFD14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kunge;
+				TargetAttributes = {
+					FF6B2F5820EF5603008AFD14 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					FF6B2F7020EF5606008AFD14 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = FF6B2F5820EF5603008AFD14;
+					};
+					FF6B2F7B20EF5606008AFD14 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = FF6B2F5820EF5603008AFD14;
+					};
+				};
+			};
+			buildConfigurationList = FF6B2F5420EF5603008AFD14 /* Build configuration list for PBXProject "PianoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF6B2F5020EF5603008AFD14;
+			productRefGroup = FF6B2F5A20EF5603008AFD14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF6B2F5820EF5603008AFD14 /* PianoApp */,
+				FF6B2F7020EF5606008AFD14 /* PianoAppTests */,
+				FF6B2F7B20EF5606008AFD14 /* PianoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF6B2F5720EF5603008AFD14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6B2FF920EF5648008AFD14 /* 22-F#-大字组.mp3 in Resources */,
+				FF6B300B20EF5648008AFD14 /* 64-C  -小字3组.mp3 in Resources */,
+				FF6B2FE720EF5648008AFD14 /* 05-C#-大字1组.mp3 in Resources */,
+				FF6B301D20EF5648008AFD14 /* 53-C# -小字2组.mp3 in Resources */,
+				FF6B2F6920EF5606008AFD14 /* LaunchScreen.storyboard in Resources */,
+				FF6B303E20EF5648008AFD14 /* 61-A  -小字2组.mp3 in Resources */,
+				FF6B2FEB20EF5648008AFD14 /* 75-B  -小字3组.mp3 in Resources */,
+				FF6B301A20EF5648008AFD14 /* 44-E  -小字1组.mp3 in Resources */,
+				FF6B302320EF5648008AFD14 /* 08-E  -大字1组.mp3 in Resources */,
+				FF6B302E20EF5648008AFD14 /* 43-D# -小字1组.mp3 in Resources */,
+				FF6B303520EF5648008AFD14 /* 24-G#-大字组.mp3 in Resources */,
+				FF6B300420EF5648008AFD14 /* 36-G# -小字组.mp3 in Resources */,
+				FF6B301E20EF5648008AFD14 /* 35-G  -小字组.mp3 in Resources */,
+				FF6B301520EF5648008AFD14 /* 06-D  -大字1组.mp3 in Resources */,
+				FF6B300C20EF5648008AFD14 /* 48-G# -小字1组.mp3 in Resources */,
+				FF6B302720EF5648008AFD14 /* 78-D  -小字4组.mp3 in Resources */,
+				FF6B301C20EF5648008AFD14 /* 07-D#-大字1组.mp3 in Resources */,
+				FF6B302220EF5648008AFD14 /* 29-C# -小字组.mp3 in Resources */,
+				FF6B300F20EF5648008AFD14 /* 25-A -大字组.mp3 in Resources */,
+				FF6B301820EF5648008AFD14 /* 82-F# -小字4组.mp3 in Resources */,
+				FF6B2FEE20EF5648008AFD14 /* 63-B   -小字2组.mp3 in Resources */,
+				FF6B2FFC20EF5648008AFD14 /* 03-B    -大字2组.mp3 in Resources */,
+				FF6B302A20EF5648008AFD14 /* 26-A#-大字组.mp3 in Resources */,
+				FF6B303220EF5648008AFD14 /* 34-F# -小字组.mp3 in Resources */,
+				FF6B303D20EF5648008AFD14 /* 62-A# -小字2组.mp3 in Resources */,
+				FF6B302820EF5648008AFD14 /* 28-C   -小字组.mp3 in Resources */,
+				FF6B2FF320EF5648008AFD14 /* 47-G  -小字1组.mp3 in Resources */,
+				FF6B2FF620EF5648008AFD14 /* 66-D    -小字3组.mp3 in Resources */,
+				FF6B301F20EF5648008AFD14 /* 65-C#  -小字3组.mp3 in Resources */,
+				FF6B300020EF5648008AFD14 /* 41-C# -小字1组.mp3 in Resources */,
+				FF6B300A20EF5648008AFD14 /* 39-B  -小字组.mp3 in Resources */,
+				FF6B2FEA20EF5648008AFD14 /* 76-C  -小字4组.mp3 in Resources */,
+				FF6B303120EF5648008AFD14 /* 57-F   -小字2组.mp3 in Resources */,
+				FF6B301220EF5648008AFD14 /* 27-B -大字组.mp3 in Resources */,
+				FF6B2FF420EF5648008AFD14 /* 69-F  -小字3组.mp3 in Resources */,
+				FF6B302420EF5648008AFD14 /* 40-C  -小字1组.mp3 in Resources */,
+				FF6B303C20EF5648008AFD14 /* 01-A    -大字2组.mp3 in Resources */,
+				FF6B2F6620EF5606008AFD14 /* Assets.xcassets in Resources */,
+				FF6B2FF220EF5648008AFD14 /* 88-C  -小字5组.mp3 in Resources */,
+				FF6B301420EF5648008AFD14 /* 20-E -大字组.mp3 in Resources */,
+				FF6B303720EF5648008AFD14 /* 77-C# -小字4组.mp3 in Resources */,
+				FF6B304320EF578A008AFD14 /* PianoListCell.xib in Resources */,
+				FF6B301B20EF5648008AFD14 /* 38-A# -小字组.mp3 in Resources */,
+				FF6B303920EF5648008AFD14 /* 71-G  -小字3组.mp3 in Resources */,
+				FF6B2FED20EF5648008AFD14 /* 59-G   -小字2组.mp3 in Resources */,
+				FF6B300520EF5648008AFD14 /* 46-F# -小字1组.mp3 in Resources */,
+				FF6B2FFA20EF5648008AFD14 /* 04-C  -大字1组.mp3 in Resources */,
+				FF6B303B20EF5648008AFD14 /* 10-F#-大字1组.mp3 in Resources */,
+				FF6B2FFD20EF5648008AFD14 /* 68-E   -小字3组.mp3 in Resources */,
+				FF6B2FF720EF5648008AFD14 /* 84-G# -小字4组.mp3 in Resources */,
+				FF6B303A20EF5648008AFD14 /* 55-D# -小字2组.mp3 in Resources */,
+				FF6B2FFF20EF5648008AFD14 /* 49-A  -小字1组.mp3 in Resources */,
+				FF6B2FEF20EF5648008AFD14 /* 85-A  -小字4组.mp3 in Resources */,
+				FF6B302620EF5648008AFD14 /* 13-A   -大字1组.mp3 in Resources */,
+				FF6B301120EF5648008AFD14 /* 67-D#  -小字3组.mp3 in Resources */,
+				FF6B302C20EF5648008AFD14 /* 73-A  -小字3组.mp3 in Resources */,
+				FF6B300720EF5648008AFD14 /* 02-A# -大字2组.mp3 in Resources */,
+				FF6B2FF120EF5648008AFD14 /* 14-A#-大字1组.mp3 in Resources */,
+				FF6B2FFE20EF5648008AFD14 /* 56-E   -小字2组.mp3 in Resources */,
+				FF6B302920EF5648008AFD14 /* 23-G -大字组.mp3 in Resources */,
+				FF6B2FE920EF5648008AFD14 /* 74-A# -小字3组.mp3 in Resources */,
+				FF6B302020EF5648008AFD14 /* 17-C#-大字组.mp3 in Resources */,
+				FF6B300820EF5648008AFD14 /* 80-E  -小字4组.mp3 in Resources */,
+				FF6B303820EF5648008AFD14 /* 72-G# -小字3组.mp3 in Resources */,
+				FF6B301320EF5648008AFD14 /* 21-F -大字组.mp3 in Resources */,
+				FF6B303620EF5648008AFD14 /* 16-C  -大字组.mp3 in Resources */,
+				FF6B300D20EF5648008AFD14 /* 09-F  -大字1组.mp3 in Resources */,
+				FF6B303420EF5648008AFD14 /* 52-C    -小字2组.mp3 in Resources */,
+				FF6B300220EF5648008AFD14 /* 15-B  -大字1组.mp3 in Resources */,
+				FF6B302D20EF5648008AFD14 /* 45-F   -小字1组.mp3 in Resources */,
+				FF6B302120EF5648008AFD14 /* 42-D -小字1组.mp3 in Resources */,
+				FF6B2FF820EF5648008AFD14 /* 54-D   -小字2组.mp3 in Resources */,
+				FF6B303020EF5648008AFD14 /* 50-A# -小字1组.mp3 in Resources */,
+				FF6B300E20EF5648008AFD14 /* 12-G#-大字1组.mp3 in Resources */,
+				FF6B2FE820EF5648008AFD14 /* 60-G#-小字2组.mp3 in Resources */,
+				FF6B2FFB20EF5648008AFD14 /* 37-A  -小字组.mp3 in Resources */,
+				FF6B2FF520EF5648008AFD14 /* 79-D# -小字4组.mp3 in Resources */,
+				FF6B300920EF5648008AFD14 /* 19-D# -大字组.mp3 in Resources */,
+				FF6B300620EF5648008AFD14 /* 18-D  -大字组.mp3 in Resources */,
+				FF6B300320EF5648008AFD14 /* 31-D# -小字组.mp3 in Resources */,
+				FF6B2FEC20EF5648008AFD14 /* 86-A# -小字4组.mp3 in Resources */,
+				FF6B302520EF5648008AFD14 /* 70-F# -小字3组.mp3 in Resources */,
+				FF6B2F6420EF5603008AFD14 /* Main.storyboard in Resources */,
+				FF6B303320EF5648008AFD14 /* 83-G  -小字4组.mp3 in Resources */,
+				FF6B302B20EF5648008AFD14 /* 58-F# -小字2组.mp3 in Resources */,
+				FF6B301920EF5648008AFD14 /* 33-F  -小字组.mp3 in Resources */,
+				FF6B301620EF5648008AFD14 /* 11-G  -大字1组.mp3 in Resources */,
+				FF6B301720EF5648008AFD14 /* 81-F  -小字4组.mp3 in Resources */,
+				FF6B301020EF5648008AFD14 /* 51-B    -小字1组.mp3 in Resources */,
+				FF6B2FF020EF5648008AFD14 /* 87-B  -小字4组.mp3 in Resources */,
+				FF6B302F20EF5648008AFD14 /* 32-E  -小字组.mp3 in Resources */,
+				FF6B300120EF5648008AFD14 /* 30-D  -小字组.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6B2F6F20EF5606008AFD14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6B2F7A20EF5606008AFD14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF6B2F5520EF5603008AFD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6B2F6120EF5603008AFD14 /* ViewController.m in Sources */,
+				FF6B304220EF578A008AFD14 /* PianoListCell.m in Sources */,
+				FF6B2F6C20EF5606008AFD14 /* main.m in Sources */,
+				FF6B2F5E20EF5603008AFD14 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6B2F6D20EF5606008AFD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6B2F7620EF5606008AFD14 /* PianoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6B2F7820EF5606008AFD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6B2F8120EF5606008AFD14 /* PianoAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF6B2F7320EF5606008AFD14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6B2F5820EF5603008AFD14 /* PianoApp */;
+			targetProxy = FF6B2F7220EF5606008AFD14 /* PBXContainerItemProxy */;
+		};
+		FF6B2F7E20EF5606008AFD14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6B2F5820EF5603008AFD14 /* PianoApp */;
+			targetProxy = FF6B2F7D20EF5606008AFD14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF6B2F6220EF5603008AFD14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6B2F6320EF5603008AFD14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF6B2F6720EF5606008AFD14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6B2F6820EF5606008AFD14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF6B2F8320EF5606008AFD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF6B2F8420EF5606008AFD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF6B2F8620EF5606008AFD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PianoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.PianoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF6B2F8720EF5606008AFD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 323HX38M55;
+				INFOPLIST_FILE = PianoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.PianoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "42506e03-47c5-49d7-b864-a4db06fdc8b1";
+				PROVISIONING_PROFILE_SPECIFIER = ZJPianoApp_Dis_PP;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF6B2F8920EF5606008AFD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = PianoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.PianoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoApp.app/PianoApp";
+			};
+			name = Debug;
+		};
+		FF6B2F8A20EF5606008AFD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = PianoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.PianoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoApp.app/PianoApp";
+			};
+			name = Release;
+		};
+		FF6B2F8C20EF5606008AFD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = PianoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.PianoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PianoApp;
+			};
+			name = Debug;
+		};
+		FF6B2F8D20EF5606008AFD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = PianoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.PianoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PianoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF6B2F5420EF5603008AFD14 /* Build configuration list for PBXProject "PianoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6B2F8320EF5606008AFD14 /* Debug */,
+				FF6B2F8420EF5606008AFD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6B2F8520EF5606008AFD14 /* Build configuration list for PBXNativeTarget "PianoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6B2F8620EF5606008AFD14 /* Debug */,
+				FF6B2F8720EF5606008AFD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6B2F8820EF5606008AFD14 /* Build configuration list for PBXNativeTarget "PianoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6B2F8920EF5606008AFD14 /* Debug */,
+				FF6B2F8A20EF5606008AFD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6B2F8B20EF5606008AFD14 /* Build configuration list for PBXNativeTarget "PianoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6B2F8C20EF5606008AFD14 /* Debug */,
+				FF6B2F8D20EF5606008AFD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF6B2F5120EF5603008AFD14 /* Project object */;
+}
